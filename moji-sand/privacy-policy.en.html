@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>moji-sand Privacy Policy</title>
+<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+  line-height: 1.8; max-width: 720px; margin: 0 auto; padding: 24px 16px 64px; color: #222; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; background: #111; } a { color: #6db3ff; } }
+h1 { font-size: 1.6rem; margin: 0 0 4px; }
+h2 { font-size: 1.2rem; margin: 32px 0 8px; padding-top: 8px; border-top: 1px solid rgba(128,128,128,.3); }
+.policy-meta { color: #888; font-size: .9rem; margin-bottom: 24px; }
+ul { padding-left: 1.3em; }
+li { margin: 4px 0; }
+table { border-collapse: collapse; width: 100%; margin: 8px 0; font-size: .95rem; }
+th, td { border: 1px solid rgba(128,128,128,.4); padding: 6px 8px; text-align: left; vertical-align: top; }
+code { background: rgba(128,128,128,.18); padding: 1px 5px; border-radius: 4px; }
+a { color: #2563eb; }
+</style>
+</head>
+<body>
+<h1>moji-sand Privacy Policy</h1>
+<p class="policy-meta">Version 1.4.0 ・ Effective 2026-06-12 / Last revised 2026-06-28</p>
+<p>&quot;moji-sand&quot; (the &quot;App&quot;) respects your privacy. This policy explains what information the App handles and how it is used. The authoritative version of this policy is the Japanese one; this English version is provided for convenience.</p>
+<h2>Information sent to our servers</h2>
+<p>During gameplay, the App sends only the following information to our servers.</p>
+<ul>
+<li>The word you answered</li>
+<li>The prompt presented (the &quot;head&quot; and &quot;tail&quot; characters)</li>
+<li>The character count of your answered word</li>
+<li>The number of seconds you took to answer</li>
+<li>Each round's score (Daily Challenge)</li>
+<li>Nickname (auto-generated on first launch; you can change it in Settings)</li>
+<li>An anonymous random identifier (an unguessable token generated per device, used only to show your own rank in the Daily Ranking; it is not linked to your name or the device itself)</li>
+</ul>
+<p>We do not collect information that directly identifies you, such as your name, email address, phone number, hardware device ID, or location. There is no account registration.</p>
+<h2>Purpose of use</h2>
+<p>The information sent is used solely for the following purposes.</p>
+<ul>
+<li>Providing Ghost battles and the Daily Ranking (competing against other players' past answers and showing rankings)</li>
+<li>Improving the quality of prompts and word judging</li>
+</ul>
+<h2>Third parties and storage locations</h2>
+<ul>
+<li>Play records are stored in Supabase (data center: Tokyo region).</li>
+<li>Only when an answered word is not in the bundled dictionary, the <strong>word only</strong> is sent to the OpenAI API to judge its validity. Results are cached, so the same word is not sent again.</li>
+<li>To process and restore the &quot;remove ads&quot; in-app purchase, we use the purchase-management service RevenueCat (see the &quot;In-app purchase (remove ads)&quot; section).</li>
+<li>To measure ad performance and install attribution, we use the measurement service Tenjin (see the &quot;Advertising and tracking&quot; section).</li>
+<li>We do not provide your information to any third party other than the above.</li>
+</ul>
+<h2>Handling of IP addresses</h2>
+<p>To prevent abuse (rate-limiting repeated submissions), we briefly store only a salted hash of the originating IP address.</p>
+<ul>
+<li>The original IP address cannot be recovered from the hash.</li>
+<li>We do not store raw IP addresses.</li>
+</ul>
+<h2>Information stored on your device</h2>
+<p>The following information is stored on your device. Except for the transmitted information described here, it is never sent off the device.</p>
+<ul>
+<li>Sound ON/OFF setting</li>
+<li>Nickname</li>
+<li>Whether the how-to-play guide (onboarding) has been shown</li>
+<li>The anonymous random identifier described above</li>
+<li>Play records such as your personal best and battle results</li>
+<li>Daily Challenge results and past history</li>
+<li>The number of times the store-review prompt has been shown</li>
+<li>Notification (daily reminder) ON/OFF and scheduled-time settings</li>
+<li>Whether an app-update notice has been shown or postponed</li>
+</ul>
+<h2>Notifications</h2>
+<p>Notifications such as the Daily Challenge reminder are all local notifications scheduled on your device. No personal information is sent to our servers or any third party to deliver them. You can turn notifications off at any time in Settings and adjust their scheduled time.</p>
+<h2>Advertising and tracking</h2>
+<p>The App displays ads via Google AdMob. To deliver and measure ads, the ad SDK may obtain and use information such as the advertising identifier. This information is handled by Google and the parties involved in ad delivery in accordance with their respective privacy policies.</p>
+<ul>
+<li>On iOS, we ask for tracking permission in accordance with App Tracking Transparency. Ads are shown even if you decline, but they will not be personalized for you.</li>
+<li>In the European Economic Area (EEA), the UK, and similar regions, we obtain consent for ads in accordance with consent management (Google User Messaging Platform).</li>
+<li>The App is configured for general (non-child-directed) ad delivery.</li>
+<li>For how Google uses data in advertising, see the Google Privacy Policy (https://policies.google.com/privacy) and &quot;How Google uses data in advertising&quot; (https://support.google.com/admob/answer/6128543).</li>
+</ul>
+<p>To measure ad performance and install attribution, we use Tenjin as a measurement SDK. Tenjin obtains event information such as the advertising identifier, device identifiers, and install/ad-revenue events, and handles it in accordance with Tenjin's privacy policy (https://www.tenjin.com/privacy-policy/). This collection also follows your App Tracking Transparency choice above; if you decline, no tracking is performed.</p>
+<p>The in-app store-review prompt uses the OS standard feature and does not send information to our servers.</p>
+<h2>In-app purchase (remove ads)</h2>
+<p>The App offers a &quot;remove ads&quot; in-app purchase (non-consumable). Purchases and purchase restoration are processed through the purchase-management service RevenueCat.</p>
+<ul>
+<li>To process the purchase, an anonymous identifier representing the in-app user and purchase/receipt information are shared with RevenueCat and the Apple / Google billing systems. These are handled in accordance with RevenueCat's privacy policy (https://www.revenuecat.com/privacy/).</li>
+<li>We do not obtain or store payment-method information such as your name or credit card number (payment is processed by Apple / Google).</li>
+<li>Whether &quot;remove ads&quot; is active is also stored on your device.</li>
+</ul>
+<h2>Retention period</h2>
+<p>Play records are retained for as long as necessary to provide Ghost battles and the Daily Ranking. The salted hash of the IP address is retained only for the short period needed for rate-limit checks and is then deleted.</p>
+<h2>Changes to this policy</h2>
+<p>When we change this policy, we update the version number and revision date and announce it on this page. For significant changes, we will also notify you within the App. The changes for each version are listed in the revision history at the end.</p>
+<h2>Contact</h2>
+<p>For inquiries about this policy, please contact us at:</p>
+<ul>
+<li>Email: privacy@sa-san.com</li>
+</ul>
+<h2>Revision history</h2>
+<p>Effective date: 2026-06-12 / Last revised: 2026-06-28</p>
+<table><thead><tr><th>Version</th><th>Date</th><th>Changes</th></tr></thead><tbody><tr><td>1.4.0</td><td>2026-06-28</td><td>Disclosed RevenueCat as a third party for the new &quot;remove ads&quot; in-app purchase and added the &quot;In-app purchase (remove ads)&quot; section. Disclosed Tenjin as a measurement SDK and revised the prior statement that &quot;no analytics SDK other than the ad SDK is embedded&quot; to match the Tenjin integration. Added this English version of the policy.</td></tr><tr><td>1.3.0</td><td>2026-06-26</td><td>Added a &quot;Notifications&quot; section for the daily reminder, documented the on-device settings (notification ON/OFF and scheduled time) and app-update-notice state, and noted that notifications are local and send no personal information.</td></tr><tr><td>1.2.0</td><td>2026-06-14</td><td>Revised &quot;Advertising and tracking&quot; for the introduction of ads (Google AdMob): disclosed advertising-identifier use, ATT, consent management, general-audience delivery, and where Google uses the data.</td></tr><tr><td>1.1.0</td><td>2026-06-14</td><td>Reviewed the wording to match the current implementation (editable nickname, on-device storage items, the anonymous random identifier, and the Daily Ranking).</td></tr><tr><td>1.0.0</td><td>2026-06-12</td><td>Initial version.</td></tr></tbody></table>
+</body>
+</html>
